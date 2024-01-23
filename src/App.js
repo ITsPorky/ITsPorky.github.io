@@ -4,6 +4,7 @@ import NavBar from './components/common/NavBar.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import Experience from './components/Experience.jsx';
 import Projects from './components/Projects.jsx';
+import Contact from './components/Contact.jsx';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <AboutMe />
       <Experience />
       <Projects />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 }
