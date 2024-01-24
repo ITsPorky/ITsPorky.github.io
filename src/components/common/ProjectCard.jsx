@@ -13,28 +13,29 @@ const ProjectCard = ({image, imageAlt, title, description, link1Text, link1, lin
     }
 
     return (
-        <div class="card shadow-sm">
+        <div className="card shadow-sm">
             <img
             src={image}
             alt={imageAlt}
             width="450"
             height="244"
-            class="img-fluid project-img"
+            className="img-fluid project-img"
             />
-            <div class="card-body">
-                <h4 class="card-text">{title}</h4>
-                <p class="card-text">
+            <div className="card-body">
+                <h4 className="card-text">{title}</h4>
+                <p className="card-text">
                     {description}
                 </p>
                 <div
-                    class="d-flex justify-content-between align-items-center"
+                    className="d-flex justify-content-between align-items-center"
                 >
-                    <div class="btn-group">
+                    <div className="btn-group">
                         { isLink1 ?
                         <a
                           href={link1}
                           target="_blank"
-                          class="btn btn-sm btn-outline-secondary"
+                          rel="noreferrer"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           {link1Text}
                         </a>
@@ -43,13 +44,14 @@ const ProjectCard = ({image, imageAlt, title, description, link1Text, link1, lin
                         <a
                             href={link2}
                             target="_blank"
-                            class="btn btn-sm btn-outline-secondary"
+                            rel="noreferrer"
+                            className="btn btn-sm btn-outline-secondary"
                         >
                             {link2Text}
                         </a>
                         : null }
                     </div>
-                    <small class="text-muted"
+                    <small className="text-muted"
                     >{skills}</small>
                 </div>
             </div>

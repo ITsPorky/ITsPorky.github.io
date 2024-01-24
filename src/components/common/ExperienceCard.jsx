@@ -2,9 +2,9 @@ import React from 'react';
 
 const ExperienceCard = ({image, imageAlt, title, subtitle, skills, description}) => {
     return (
-        <div class="dark-card py-3">
+        <div className="dark-card py-3">
             <img
-                class="company-logo img rounded-image mb-3"
+                className="company-logo img rounded-image mb-3"
                 src={image}
                 width="100"
                 height="100"

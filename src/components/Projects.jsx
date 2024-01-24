@@ -4,23 +4,23 @@ import ProjectCard from './common/ProjectCard';
 const Projects = () => {
     return (
         <section id="Projects">
-        <div class="album py-5">
-          <div class="container py-5 text-center">
-            <h2 class="display-5 fw-bold  ">
-              03. Things I've <span class="highlighted">Built</span>
+        <div className="album py-5">
+          <div className="container py-5 text-center">
+            <h2 className="display-5 fw-bold  ">
+              03. Things I've <span className="highlighted">Built</span>
             </h2>
             <hr />
           </div>
-          <div class="container">
-            <div class="row pt-5 pb-5">
-              <h3 class="display-5 fw-bold  text-center">
-                <span class="highlighted">Websites</span> I've Built
+          <div className="container">
+            <div className="row pt-5 pb-5">
+              <h3 className="display-5 fw-bold  text-center">
+                <span className="highlighted">Websites</span> I've Built
               </h3>
             </div>
             <div
-              class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3 pt-2 pb-2"
+              className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3 pt-2 pb-2"
             >
-              <div class="col">
+              <div className="col">
                 <ProjectCard 
                   image="assets/images/lendcofinance.com.jpg"
                   imageAlt="Lendco Finance"
@@ -33,15 +33,15 @@ const Projects = () => {
                 />
               </div>
             </div>
-            <div class="row pt-5 pb-5">
-              <h3 class="display-5 fw-bold  text-center">
-                <span class="highlighted">Projects</span> I've Built
+            <div className="row pt-5 pb-5">
+              <h3 className="display-5 fw-bold  text-center">
+                <span className="highlighted">Projects</span> I've Built
               </h3>
             </div>
             <div
-              class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 pt-2 pb-2"
+              className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 pt-2 pb-2"
             >
-              <div class="col">
+              <div className="col">
                 <ProjectCard 
                   image="assets/images/Character-Generator-img-optimised.jpg"
                   imageAlt="Fantasy Character Generator"
@@ -56,7 +56,7 @@ const Projects = () => {
                   skills="Node.js/JavaScript"
                 />
               </div>
-              <div class="col">
+              <div className="col">
                 <ProjectCard 
                   image="assets/images/Character-Battler-img-optimised.jpg"
                   imageAlt="Fantasy Character Battler"
@@ -71,7 +71,7 @@ const Projects = () => {
                   skills="React.js/HTML/CSS"
                 />
               </div>
-              <div class="col">
+              <div className="col">
                 <ProjectCard 
                   image="assets/images/Procedural-Gen-unity-optimised.jpg"
                   imageAlt="2D Procedural Generator"
