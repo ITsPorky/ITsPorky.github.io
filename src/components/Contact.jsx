@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div id="Contact" className="container mt-5">
+      <div id="Contact" className="section-padding container mt-5">
       <h2 className="display-5 fw-bold text-center  ">
         04. My <span className="highlighted">Details</span>
       </h2>

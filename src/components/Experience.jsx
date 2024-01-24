@@ -3,7 +3,7 @@ import ExperienceCard from './common/ExperienceCard';
 
 const Experience = () => {
     return (
-        <section id="Experience">
+        <section id="Experience" className="section-padding">
             <div className="container py-5 text-center">
             <h2 className="display-5 fw-bold  ">
                 02. My <span class="highlighted">Experience</span>

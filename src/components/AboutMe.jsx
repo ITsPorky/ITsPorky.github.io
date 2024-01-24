@@ -3,7 +3,7 @@ import React from 'react';
 const AboutMe = () => {
   return (
     <section id="About" Style="padding-top: 90px">
-        <div className="container px-4 py-5 text-center">
+        <div className="container px-4 py-5 section-padding text-center">
           <img
             className="d-block mx-auto mb-4 img rounded-image"
             style={{maxWidth: "350px"}}

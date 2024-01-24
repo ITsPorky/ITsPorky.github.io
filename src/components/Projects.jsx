@@ -3,7 +3,7 @@ import ProjectCard from './common/ProjectCard';
 
 const Projects = () => {
     return (
-        <section id="Projects">
+        <section id="Projects" className="section-padding">
         <div className="album py-5">
           <div className="container py-5 text-center">
             <h2 className="display-5 fw-bold  ">
