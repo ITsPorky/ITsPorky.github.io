@@ -18,7 +18,7 @@ const Projects = () => {
               </h3>
             </div>
             <div
-              className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3 pt-2 pb-2"
+              className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3 pt-2 pb-2 justify-content-center"
             >
               <div className="col">
                 <ProjectCard 
@@ -39,7 +39,7 @@ const Projects = () => {
               </h3>
             </div>
             <div
-              className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 pt-2 pb-2"
+              className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 pt-2 pb-2 justify-content-center"
             >
               <div className="col">
                 <ProjectCard 
@@ -77,8 +77,7 @@ const Projects = () => {
                   imageAlt="2D Procedural Generator"
                   title="2D Procedural Terrain Generation"
                   description="A 2D procedural generator to draw tilemaps in Unity based
-                  on a seed. The project also has basic biome selection base
-                  don moisture and temperature maps. (Work in progress)"
+                  on a seed. The project also has basic biome selection based on moisture and temperature maps. (Work in progress)"
                   link1Text="Download"
                   link1="assets/projects/2D Procedural Terrain v0.0.8-development-build(Biomes).zip"
                   skills="C#/Unity"
