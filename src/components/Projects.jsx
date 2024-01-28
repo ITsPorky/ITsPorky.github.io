@@ -39,7 +39,7 @@ const Projects = () => {
               </h3>
             </div>
             <div
-              className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 pt-2 pb-2 justify-content-center"
+              className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 pt-2 pb-2"
             >
               <div className="col">
                 <ProjectCard 
@@ -81,6 +81,18 @@ const Projects = () => {
                   link1Text="Download"
                   link1="assets/projects/2D Procedural Terrain v0.0.8-development-build(Biomes).zip"
                   skills="C#/Unity"
+                />
+              </div>
+              <div className="col">
+                <ProjectCard 
+                  image="assets/images/ITsPorkys-Toggle-Auto-Run-Mod.jpg"
+                  imageAlt="ITsPorkys - Toggle Auto Run (T.A.R)"
+                  title="ITsPorkys - Toggle Auto Run(T.A.R)"
+                  description="A mod for S.T.A.L.K.E.R - Anomaly that uses the MCM(Mod Configuration Menu) addon for integration. 
+                  This mod allows the user to confiugure and use a toggle 'Run' or 'Sprint' in the game."
+                  link1Text="View"
+                  link1="https://www.moddb.com/mods/stalker-anomaly/addons/toggle-auto-run-v100"
+                  skills="Lua"
                 />
               </div>
             </div>
