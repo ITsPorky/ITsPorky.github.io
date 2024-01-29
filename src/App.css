@@ -165,6 +165,22 @@ img {
   color: #6c757d !important;
 }
 
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #000;
+  width: 70%;
+  height: 100vh;
+}
+
+.mobile-menu-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 /* Glitch Effects */
 .glitch {
   text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;

@@ -14,6 +14,7 @@ const NavBar = () => {
           </a>
           <button
             class="navbar-toggler"
+            Style="z-index: 999;"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -27,7 +28,7 @@ const NavBar = () => {
             class="collapse navbar-collapse justify-content-end"
             id="navbarNavAltMarkup"
           >
-            <div class="navbar-nav navbar-nav-scroll  fw-bold">
+            <div class="navbar-nav navbar-nav-scroll fw-bold">
               <a
                 class="nav-link  px-3"
                 aria-current="page"
