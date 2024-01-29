@@ -6,7 +6,7 @@ const Experience = () => {
         <section id="Experience" className="section-padding">
             <div className="container py-5 text-center">
             <h2 className="display-5 fw-bold  ">
-                02. My <span class="highlighted">Experience</span>
+                02. My <span className="highlighted">Experience</span>
             </h2>
             <hr />
             </div>

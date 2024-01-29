@@ -6,7 +6,7 @@ const AboutMe = () => {
         <div className="container px-4 py-5 section-padding text-center">
           <img
             className="d-block mx-auto mb-4 img rounded-image"
-            style={{maxWidth: "350px"}}
+            Style={{maxWidth: "350px"}}
             src="assets/images/Wade-Portrait.jpg"
             width="350"
             height="350"
