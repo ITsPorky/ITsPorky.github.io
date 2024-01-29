@@ -1,7 +1,7 @@
 :root {
   --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   --font-rubik-mono: "Rubik Mono One", monospace;
-  --font-rubik: 'Rubik', sans-serif;
+  --font-rubik: "Rubik", sans-serif;
   --font-icons: "Font Awesome 6 Free";
   --animation-time: 5s;
   --github-grey: #161b22;
