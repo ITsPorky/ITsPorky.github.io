@@ -250,6 +250,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-menu-items.mobile li {
@@ -309,6 +311,7 @@ img {
   transform: translateX(100%);
   transition: .2s ease-in-out;
   z-index: 999;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .mobile-drawer.open {
@@ -320,10 +323,6 @@ img {
   height: 2px;
   background-color: #fff;
   margin: 8px 0;
-}
-
-.bar.close {
-
 }
 
 /* END NavDrawerMenu Styles END */
