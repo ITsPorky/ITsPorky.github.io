@@ -1,5 +1,4 @@
 import './App.css';
-import NavBar from './components/common/NavBar.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import Experience from './components/Experience.jsx';
 import Projects from './components/Projects.jsx';
@@ -9,7 +8,6 @@ import DrawerMenu from './components/common/DrawerMenu.jsx';
 function App() {
   return (
     <div className="App" Style="overflow: hidden;">
-      {/* <NavBar /> */}
       <DrawerMenu>
         <a className="nav-link" href="#About">01. About</a>
         <a className="nav-link" href="#Experience">02. Experience</a>
