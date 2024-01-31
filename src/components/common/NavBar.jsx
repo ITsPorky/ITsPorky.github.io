@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 const NavBar = () => {
+  // Mobile Menu State
+  const [isDrawerOpen, setDrawerOpen] = useState(false);
+
+  const toggleDrawer = () => {
+    setDrawerOpen(!isDrawerOpen);
+  };
+
   return (
     <header>
       <nav class="navbar navbar-dark fixed-top navbar-expand-lg header">
