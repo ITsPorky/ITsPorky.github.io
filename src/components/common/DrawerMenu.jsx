@@ -31,7 +31,7 @@ const DrawerMenu = ({props, children}) => {
       {/* Mobile Menu */}
       <div className={`mobile-drawer ${isDrawerOpen ? 'open' : ''}`}>
       <div className="nav-menu-toggle-container mobile">
-          <div className="nav-menu-toggle mobile" onClick={toggleDrawer}>
+          <div className="nav-menu-toggle mobile">
             <span class="material-symbols-outlined">close</span>
           </div>
         </div>
