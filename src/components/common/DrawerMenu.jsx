@@ -1,4 +1,4 @@
-import React, { Children, useState } from 'react';
+import React, { Children, useState, useEffect, useRef } from 'react';
 
 const DrawerMenu = ({props, children}) => {
   const [isDrawerOpen, setDrawerOpen] = useState(false);
@@ -31,7 +31,7 @@ const DrawerMenu = ({props, children}) => {
       {/* Mobile Menu */}
       <div className={`mobile-drawer ${isDrawerOpen ? 'open' : ''}`}>
       <div className="nav-menu-toggle-container mobile">
-          <div className="nav-menu-toggle mobile">
+          <div className="nav-menu-toggle mobile" onClick={toggleDrawer}>
             <span class="material-symbols-outlined">close</span>
           </div>
         </div>
