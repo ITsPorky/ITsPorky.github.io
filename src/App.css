@@ -48,6 +48,16 @@ p {
   font-family: var(--font-rubik);
 }
 
+a {
+  color: #ffffff;
+  transition: ease-in-out .2s;
+}
+
+a:hover {
+  color: #ffffffdd;
+}
+
+
 img {
   width: 100%;
   height: auto;
@@ -259,6 +269,7 @@ img {
 }
 
 .nav-link {
+  color: #fff;
   padding: 1em;
   width: 100%;
   text-align: center;
