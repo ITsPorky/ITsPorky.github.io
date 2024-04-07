@@ -36,7 +36,7 @@ const Experience = () => {
                         skills="Wordpress, Shopify, HTML, CSS, Javascript, PHP,
                         Bootstrap" 
                         description="During my time at Revolution Creative Group, I developed,
-                        maintained, and updated Wordpress and Shopify sites for
+                        built, and maintained Wordpress and Shopify sites for
                         clients. I also wrote customised code and worked on a SQL
                         database reporting system." 
                     />
@@ -49,7 +49,7 @@ const Experience = () => {
                         subtitle="Position: Web Developer" 
                         skills="Shopify, HTML, CSS, Javascript, Bootstrap, Liquid
                         Templating" 
-                        description="During my time at Ecom Capital I developed, maintained, and
+                        description="During my time at Ecom Capital I built, maintained, and
                         updated Shopify sites for clients, as well as writing custom
                         Liquid templates for shopify stores and using a range of
                         shopify apps and integrations." 
@@ -63,9 +63,9 @@ const Experience = () => {
                         subtitle="Position: Web Developer" 
                         skills="Wordpress, Shopify, Liquid Templating, HTML, CSS,
                         Javascript, PHP, Bootstrap" 
-                        description="Building & designing Wordpress and Shopify Sites for other
-                        Companies as a contractor and freelance projects with clients
-                        of my own." 
+                        description="Building & designing Wordpress and Shopify Sites for 
+                        external organizations as a contracted professional, while also 
+                        engaging in freelance work with my personal client base" 
                     />
                 </div>
             </div>

@@ -35,7 +35,7 @@ const Projects = () => {
                 link1="https://github.com/ITsPorky/React-Reusable-App-Template"
                 link2Text="View"
                 link2="https://itsporky.github.io/React-Reusable-App-Template/"
-                skills="React.js/JavaScript/HTML/CSS"
+                skills="React.js/HTML/CSS"
               />
             </div>
             <div className="col">
@@ -71,7 +71,7 @@ const Projects = () => {
                 imageAlt="ITsPorkys - Toggle Auto Run (T.A.R)"
                 title="ITsPorkys - Toggle Auto Run(T.A.R)"
                 description="A mod for S.T.A.L.K.E.R - Anomaly that uses the MCM(Mod Configuration Menu) addon for integration. 
-                  This mod allows the user to confiugure and use a toggle 'Run' or 'Sprint' in the game."
+                  This mod allows the user to configure and use a toggle 'Run' or 'Sprint' in the game."
                 link1Text="Visit Repo"
                 link1="https://github.com/ITsPorky/ITsPorkys_ToggleAutoRun"
                 link2Text="View"
@@ -84,12 +84,12 @@ const Projects = () => {
                 image="assets/images/ITsPorkys-Enhanced-Item-Sense-Mod.jpg"
                 imageAlt="ITsPorkys - Enahnced Item Sense (E.I.S)"
                 title="ITsPorkys - Enahnced Item Sense(E.I.S)"
-                description="A mod for S.T.A.L.K.E.R - Anomaly that allows the user to confiugure and display overhead markers above items on the ground. 
+                description="A mod for S.T.A.L.K.E.R - Anomaly that allows the user to configure and display overhead markers above items on the ground. 
                   The mod also adds a UI information window to items when the player looks at them."
                 link1Text="Visit Repo"
                 link1="https://github.com/ITsPorky/ITsPorky_ShowNearbyItems"
                 // link2Text="View"
-                // link2="https://www.moddb.com/mods/stalker-anomaly/addons/toggle-auto-run-v100"
+                // link2="#"
                 skills="Lua"
               />
             </div>
