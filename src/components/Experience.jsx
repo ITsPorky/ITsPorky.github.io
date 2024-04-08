@@ -11,9 +11,11 @@ const Experience = () => {
             <hr />
             </div>
             <div className="container">
+                <p className='text-center lead mb-4 restricted-width-text'>Here, I demonstrate my academic and professional background, showcasing my study and work experience.</p>
+
             <div
                 className="row row-cols-1 row-cols-md-2 g-3 pt-2 pb-2 justify-content-center text-center"
-            >
+            >   
                 <div className="col">
                     <ExperienceCard 
                         image="/assets/images/UniSQ-Logo.jpg"

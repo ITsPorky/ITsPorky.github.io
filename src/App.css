@@ -211,6 +211,11 @@ img {
   border-radius: 5px;
 }
 
+.restricted-width-text {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 /* Glitch Effects */
 .glitch {
   text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;

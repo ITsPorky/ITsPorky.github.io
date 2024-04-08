@@ -12,6 +12,7 @@ const Projects = () => {
           <hr />
         </div>
         <div className="container">
+          <p className='text-center lead mb-4 restricted-width-text'>I have worked on over 50+ Websites and Projects professionally. Here are a few projects I am able to showcase consisting of personal and paid freelance work.</p>
           <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 pt-2 pb-2">
             <div className="col">
               <ProjectCard
@@ -74,7 +75,7 @@ const Projects = () => {
                   This mod allows the user to configure and use a toggle 'Run' or 'Sprint' in the game."
                 link1Text="Visit Repo"
                 link1="https://github.com/ITsPorky/ITsPorkys_ToggleAutoRun"
-                link2Text="View"
+                link2Text="ModDB"
                 link2="https://www.moddb.com/mods/stalker-anomaly/addons/toggle-auto-run-v100"
                 skills="Lua"
               />
@@ -88,7 +89,7 @@ const Projects = () => {
                   The mod also adds a UI information window to items when the player looks at them."
                 link1Text="Visit Repo"
                 link1="https://github.com/ITsPorky/ITsPorky_ShowNearbyItems"
-                // link2Text="View"
+                // link2Text="ModDB"
                 // link2="#"
                 skills="Lua"
               />
